@@ -9,7 +9,15 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
-
+add_to_apps_screen = [
+	{
+		"name": "PLAN",
+		"logo": "/assets/plana/PLAN.png",
+		"title": "PLAN",
+		"route": "/plana",
+		"has_permission": "lms.lms.api.check_app_permission",
+	}
+]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/plana/css/plana.css"
 # app_include_js = "/assets/plana/js/plana.js"
