@@ -43,4 +43,4 @@ bench --site dev.altrixone set-config developer_mode 1
 bench --site dev.altrixone clear-cache
 bench use dev.altrixone
 bench get-app --branch main plana https://github.com/Altrix-One/PLAN.git
-bench install-app plana
+bench --site dev.altrixone install-app plana
