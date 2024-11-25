@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include plana *.css
+recursive-include plana *.csv
+recursive-include plana *.html
+recursive-include plana *.ico
+recursive-include plana *.js
+recursive-include plana *.json
+recursive-include plana *.md
+recursive-include plana *.png
+recursive-include plana *.py
+recursive-include plana *.svg
+recursive-include plana *.txt
+recursive-exclude plana *.pyc
