@@ -5,7 +5,7 @@
   <p align="center">Easy to use, open source, Planning Your Task System.</p>
 </p>
 
-h1>Planner App 📝</h1>
+<h1>Planner App 📝</h1>
     <p><strong>Planner App</strong> is a simple yet powerful tool to organize your day! Easily create tasks or notes for yourself, and seamlessly manage your daily or weekly plans.</p>
     
   <h2>Features:</h2>
