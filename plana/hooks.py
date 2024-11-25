@@ -1,9 +1,9 @@
 from . import __version__ as app_version
 
 app_name = "plana"
-app_title = "plana"
+app_title = "Plan A"
 app_publisher = "Christiaan Swart"
-app_description = "Planner"
+app_description = "Planner for getting things done."
 app_email = "christiaan.swart@epiuse.com"
 app_license = "MIT"
 
