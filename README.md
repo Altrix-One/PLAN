@@ -20,5 +20,7 @@
   <p>Planner App is perfect for individuals looking to enhance productivity and streamline their workflow without the complexity of traditional planning tools.</p>
     
   <h2>Get Started 🚀</h2>
-  <p>Clone the repository and start planning your day with ease!</p>
+  <p>Bench get-app https://github.com/Altrix-One/PLAN</p>
+  <p>Bench --site (site name) install-app plana</p>
+  <p>Bench build </p>
 </body>
