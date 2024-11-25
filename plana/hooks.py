@@ -1,6 +1,6 @@
 from . import __version__ as app_version
 
-app_name = "plana"
+app_name = "PLAN"
 app_title = "Plan A"
 app_publisher = "Christiaan Swart"
 app_description = "Planner for getting things done."
