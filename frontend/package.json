@@ -1,0 +1,27 @@
+{
+  "name": "plana-ui",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+		"serve": "vite preview",
+		"build": "vite build --base=/assets/plana/frontend/ && yarn copy-html-entry",
+		"copy-html-entry": "cp ../plana/public/frontend/index.html ../plana/www/plana.html"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^2.1.1",
+    "autoprefixer": "^10.4.14",
+    "dayjs": "^1.10.7",
+    "feather-icons": "^4.28.0",
+    "frappe-ui": "^0.1.67",
+    "pinia": "^2.0.33",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vue": "^3.4.12",
+    "vuedraggable": "^4.1.0",
+    "vue-router": "^4.2.2",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
