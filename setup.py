@@ -7,7 +7,7 @@ with open("requirements.txt") as f:
 from plana import __version__ as version
 
 setup(
-	name="plan",
+	name="plana",
 	version=version,
 	description="Plan Ahead",
 	author="Christiaan Swart",
