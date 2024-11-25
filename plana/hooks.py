@@ -15,7 +15,6 @@ add_to_apps_screen = [
 		"logo": "/assets/plana/PLAN.png",
 		"title": "PLAN",
 		"route": "/plana",
-		"has_permission": "lms.lms.api.check_app_permission",
 	}
 ]
 # include js, css files in header of desk.html
