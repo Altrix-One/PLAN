@@ -57,7 +57,7 @@ website_route_rules = [
 ]
 
 website_redirects = [
-	{"source": "/", "target": "/plana"},
+	{"source": "/plan", "target": "/plana"},
 ]
 
 # Generators
