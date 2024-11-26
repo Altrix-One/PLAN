@@ -1,6 +1,6 @@
 <script setup>
 import { Dialogs } from '@/utils/dialogs'
-import { useRoute } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import { session } from './data/session.js'
 import { users } from './data/users.js'
 import { notes } from './data/notes.js'
@@ -15,12 +15,20 @@ import { useStore } from './store.js'
 
 let route = useRoute()
 let store = useStore()
+let router = useRouter() // Added useRouter
 
 let dropdownItems = [
   {
     label: 'Log out',
     icon: 'log-out',
     onClick: () => session.logout.submit(),
+  },
+   {
+    label: 'Apps',
+    icon: 'grid',
+    onClick: () => {
+      router.push('/apps') // Updated to use router.push
+    },
   },
 ]
 
